@@ -3,7 +3,7 @@
 #### A simple go tls webserver example that works for both dev and prod.
 
 [![Build Status](https://travis-ci.com/J7mbo/gohttpsws.svg?token=yHmxZpU2vJZUs1GXsdCa&branch=master)](https://travis-ci.com/J7mbo/gohttpsws)
-[![GoDoc](https://godoc.org/github.com/J7mbo/gohttpsws?status.svg)](https://godoc.org/github.com/J7mbo/Goij)
+[![GoDoc](https://godoc.org/github.com/J7mbo/gohttpsws?status.svg)](https://godoc.org/github.com/J7mbo/gohttpsws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 
 > I regularly find myself re-using the same simple code to set up a webserver in Go with TLS for both dev and prod.
