@@ -128,8 +128,11 @@ func ensureCertsExist(certPaths ...string) error {
 }
 
 // fileExists returns whether or not the path provided exists via os.Stat.
-func fileExists(path string) bool {
-	_, err := os.Stat(path)
-
-	return err == nil
+func fileExists(filename string) bool {
+	info, err := os.Stat(filename)
+	if os.IsNotExist(err) {
+		return false
+	}
+	
+	return !info.IsDir()
 }
